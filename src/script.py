@@ -6,7 +6,7 @@ import csv
 end_date = datetime.date.today()  # Get today's date dynamically
 start_date = end_date - datetime.timedelta(days=30)  # Go back 30 days from today
 
-# Your API key for authenticating with the Datafiniti API (Replace with your actual API key)
+# Your API key for authenticating with the Datafiniti API
 API_KEY = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkbWg2Z214eTk3bm9kb2U2ZGgwYWw2bXczaGV1MG53bSIsImlzcyI6ImRhdGFmaW5pdGkuY28ifQ.IhiLBQOyVcWLs-DkOSyYjlSrvYyWINxuKm6n25sq12DDSVlaxcTj8-dVPTWUaucVIF7OUeBQO2WU6NcqtS33vHq2-FVGi1_33fAw_scgarqRe6JL0KUNQHXfT8nWBF_7o7maRUEMiazKhAyi-p5reljhlmxJv-vzCi9Y3dyrw7T2cXlcu5E9vH-Ndnh7wLGeTIrdXCapn0kJ9SIMK35J8R_AMNBpboEvA6SiEVUDD4RqiCJ7Up6bLULMuMxIVQua5Cl_00IVme2GQUqGaTHjxT5LK0QWcOyB5G0QFcjWPfn-AcNYgT1f-KDdaqMalVDdWyboVriIyigeNieIrvGRFbMbUkzx2sNeQfckneodDQsuGpjczk2OOTm4_W5jQRQgjTH3FzeotPsNksUbB-t7hbbaPHkej29PxHG-NvCVR_Py0hCJIrrBQVhmeOwcloEksq-TH_N5zZE7ncIxGavJT2r-ScGNpRsnpMZU69RMjMxRmkAzkGrudjpfLWAioPzkhAPmhz5_WJdZDms8IurpJe-C9PGM-31u-2CrwQeuSBvyM5IPeY5OrikHU9xglrrf1sy0fcNCWMMuSCtxrImDEhPfReNE9793AQs89O0UlBzOlAHcftheEUfzjB51VZva6msm2rKh63JSmLLQtHov2myG-3a-3JwRUJLvClXWk_g"
 
 # Initialize total transactions count
