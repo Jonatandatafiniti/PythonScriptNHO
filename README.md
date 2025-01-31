@@ -1,6 +1,13 @@
-# PythonScriptNHO
-Automates retrieval of Non-Household Owner transaction data from Datafiniti API and exports results to CSV.
+# **PythonScriptNHO**
 
-# Command to run
-- `python3 script.py`
-- When you run this command it will start to create the nho_transactions.csv
+Automates the retrieval of Non-Household Owner (NHO) transaction counts from the Datafiniti API and exports the results to a CSV file.
+
+## **Command to Run**
+
+- Run the following command:
+
+  `python3 script.py`
+
+- This command generates `nho_transactions.csv`, which includes:
+  - The daily NHO transaction count for the last 30 days
+  - The total number of NHO transactions
